@@ -42,8 +42,9 @@ class image_projection:
         p_robot = PoseStamped()
         p_robot.header.frame_id = "thorvald_001/base_link"
         p_robot.pose.orientation.w = 1.0
+
         #specify a point on the ground just below the camera
-        p_robot.pose.position.x = 0.45
+        p_robot.pose.position.x = 0.1
         p_robot.pose.position.y = 0.0
         p_robot.pose.position.z = 0.0
         p_camera = self.tf_listener.transformPose('thorvald_001/kinect2_rgb_optical_frame', p_robot)
