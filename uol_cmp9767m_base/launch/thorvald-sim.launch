@@ -22,11 +22,15 @@
 
   <include file="$(find uol_cmp9767m_base)/launch/thorvald.launch">
     <arg name="robot_name" value="thorvald_001" />
-    <arg name="x" value="5.0" />
+    <arg name="x" value="-7.0" />
+    <arg name="y" value="-4.0" />
+
   </include>
   <include file="$(find uol_cmp9767m_base)/launch/thorvald.launch" if="$(arg second_robot)">
     <arg name="robot_name" value="thorvald_002" />
-    <arg name="x" value="-5.0" />
+    <arg name="x" value="-7.0" />
+    <arg name="y" value="-7.0" />
+
   </include>
 
   <group if="$(arg world_tf)">
