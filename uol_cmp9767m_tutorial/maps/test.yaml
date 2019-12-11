@@ -207,10 +207,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: -0.0042037
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999912
       position:
         x: 6.5
         y: -3.75
@@ -249,10 +249,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: -0.0042037
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999912
       position:
         x: 6.5
         y: -2.70
@@ -373,10 +373,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: -0.0042037
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999912
       position:
         x: 6.5
         y: -0.7
@@ -414,10 +414,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: -0.0042037
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999912
       position:
         x: 6.5
         y: 0.24
@@ -538,10 +538,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: -0.0042037
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999912
       position:
         x: 6.5
         y: 2.2
@@ -579,10 +579,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: -0.0042037
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999912
       position:
         x: 6.5
         y: 3.2

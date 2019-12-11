@@ -23,7 +23,7 @@ DWAPlannerROS:
   min_trans_vel: 0.0
   min_vel_y: 0.0
   max_vel_y: 0.15 #default:0.35
-
+  latch_xy_goal_tolerance: true
 
 NavfnROS:
   visualize_potential: true # (bool, default: false) Specifies whether or not to visualize the potential area computed via a PointCloud2.
