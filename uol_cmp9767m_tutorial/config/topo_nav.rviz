@@ -5,8 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /TF1/Frames1
-        - /Topo_Nav1/go_to_node1
-      Splitter Ratio: 0.51111114
+      Splitter Ratio: 0.436111122
     Tree Height: 843
   - Class: rviz/Selection
     Name: Selection
@@ -26,7 +25,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: PointCloud
+    SyncSource: LaserScan
 Toolbars:
   toolButtonStyle: 2
 Visualization Manager:
@@ -60,6 +59,452 @@ Visualization Manager:
       Unreliable: false
       Use Timestamp: false
       Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        thorvald_002/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        thorvald_002/bat0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/bat1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/corner3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/hokuyo:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/kinect2_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        thorvald_002/kinect2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/kinect2_rgb_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        thorvald_002/leg0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/leg1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/leg2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/leg3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/pipe3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/sprayer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/top0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/top1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/top2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/top3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/velodyne:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/velodyne_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/wheel0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/wheel1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/wheel2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_002/wheel3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: thorvald_002/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        thorvald_001/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        thorvald_001/bat0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/bat1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/corner3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/hokuyo:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/kinect2_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        thorvald_001/kinect2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/kinect2_rgb_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        thorvald_001/leg0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/leg1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/leg2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/leg3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/pipe3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/sprayer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/top0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/top1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/top2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/top3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/velodyne:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/velodyne_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/wheel0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/wheel1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/wheel2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        thorvald_001/wheel3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: thorvald_001/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
     - Class: rviz/TF
       Enabled: false
       Frame Timeout: 15
@@ -136,7 +581,7 @@ Visualization Manager:
           Use Fixed Frame: true
           Use rainbow: true
           Value: false
-      Enabled: false
+      Enabled: true
       Name: Sensors
     - Class: rviz/Group
       Displays:
@@ -229,14 +674,14 @@ Visualization Manager:
         - Alpha: 1
           Buffer Length: 1
           Class: rviz/Path
-          Color: 25; 255; 0
+          Color: 255; 0; 0
           Enabled: true
           Head Diameter: 0.300000012
           Head Length: 0.200000003
           Length: 0.300000012
           Line Style: Lines
           Line Width: 0.0299999993
-          Name: Path - Global2
+          Name: Path - Global
           Offset:
             X: 0
             Y: 0
@@ -252,14 +697,14 @@ Visualization Manager:
         - Alpha: 1
           Buffer Length: 1
           Class: rviz/Path
-          Color: 255; 0; 0
+          Color: 25; 255; 0
           Enabled: true
           Head Diameter: 0.300000012
           Head Length: 0.200000003
           Length: 0.300000012
           Line Style: Lines
           Line Width: 0.0299999993
-          Name: Path - Local2
+          Name: Path - Local
           Offset:
             X: 0
             Y: 0
@@ -307,313 +752,66 @@ Visualization Manager:
           Value: true
       Enabled: true
       Name: Topo_Nav
-    - Class: rviz/Group
-      Displays:
-        - Alpha: 1
-          Class: rviz/RobotModel
-          Collision Enabled: false
-          Enabled: true
-          Links:
-            All Links Enabled: true
-            Expand Joint Details: false
-            Expand Link Details: false
-            Expand Tree: false
-            Link Tree Style: Links in Alphabetic Order
-            thorvald_001/base_link:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-            thorvald_001/bat0:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/bat1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner0:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner0_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner0_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner1_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner1_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner2_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner2_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner3:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner3_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/corner3_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/hokuyo:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/kinect2_depth_optical_frame:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-            thorvald_001/kinect2_link:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/kinect2_rgb_optical_frame:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-            thorvald_001/leg0:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/leg1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/leg2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/leg3:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe0_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe0_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe1_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe1_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe2_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe2_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe3_1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/pipe3_2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/sprayer:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/top0:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/top1:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/top2:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/top3:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/velodyne:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/velodyne_link:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/wheel0_link:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/wheel1_link:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/wheel2_link:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-            thorvald_001/wheel3_link:
-              Alpha: 1
-              Show Axes: false
-              Show Trail: false
-              Value: true
-          Name: RobotModel
-          Robot Description: thorvald_001/robot_description
-          TF Prefix: ""
-          Update Interval: 0
-          Value: true
-          Visual Enabled: true
-        - Alpha: 1
-          Class: rviz/RobotModel
-          Collision Enabled: false
-          Enabled: true
-          Links:
-            All Links Enabled: true
-            Expand Joint Details: false
-            Expand Link Details: false
-            Expand Tree: false
-            Link Tree Style: Links in Alphabetic Order
-          Name: RobotModel
-          Robot Description: thorvald_002/robot_description
-          TF Prefix: ""
-          Update Interval: 0
-          Value: true
-          Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud
+      Color: 24; 106; 24
+      Color Transformer: FlatColor
+      Decay Time: 0
       Enabled: true
-      Name: Robot_Models
-    - Class: rviz/Group
-      Displays:
-        - Alpha: 1
-          Autocompute Intensity Bounds: true
-          Autocompute Value Bounds:
-            Max Value: -9999
-            Min Value: 9999
-            Value: true
-          Axis: Z
-          Channel Name: intensity
-          Class: rviz/PointCloud
-          Color: 255; 255; 255
-          Color Transformer: AxisColor
-          Decay Time: 0
-          Enabled: true
-          Invert Rainbow: false
-          Max Color: 255; 255; 255
-          Max Intensity: 4096
-          Min Color: 0; 0; 0
-          Min Intensity: 0
-          Name: PointCloud
-          Position Transformer: XYZ
-          Queue Size: 10
-          Selectable: true
-          Size (Pixels): 3
-          Size (m): 0.0599999987
-          Style: Spheres
-          Topic: /thorvald_001/weed/points
-          Unreliable: false
-          Use Fixed Frame: true
-          Use rainbow: true
-          Value: true
-        - Alpha: 1
-          Autocompute Intensity Bounds: true
-          Autocompute Value Bounds:
-            Max Value: 10
-            Min Value: -10
-            Value: true
-          Axis: Z
-          Channel Name: intensity
-          Class: rviz/PointCloud
-          Color: 0; 116; 0
-          Color Transformer: FlatColor
-          Decay Time: 0
-          Enabled: true
-          Invert Rainbow: false
-          Max Color: 255; 255; 255
-          Max Intensity: 4096
-          Min Color: 0; 0; 0
-          Min Intensity: 0
-          Name: PointCloud
-          Position Transformer: XYZ
-          Queue Size: 10
-          Selectable: true
-          Size (Pixels): 3
-          Size (m): 0.0500000007
-          Style: Spheres
-          Topic: /thorvald_001/complete_weed_pointcloud
-          Unreliable: false
-          Use Fixed Frame: true
-          Use rainbow: true
-          Value: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: PointCloud
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.0500000007
+      Style: Spheres
+      Topic: /thorvald_001/complete_weed_pointcloud
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: -9999
+        Min Value: 9999
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 0
       Enabled: true
-      Name: PointClouds
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: PointCloud
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.0500000007
+      Style: Spheres
+      Topic: /thorvald_001/weed/points
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -648,11 +846,11 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Scale: 91.9964676
+      Scale: 73.7204514
       Target Frame: <Fixed Frame>
       Value: TopDownOrtho (rviz)
-      X: -5.37161303
-      Y: -2.82509756
+      X: -0.70522666
+      Y: -0.784562588
     Saved: ~
 Window Geometry:
   Displays:
