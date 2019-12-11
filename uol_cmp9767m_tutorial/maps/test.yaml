@@ -180,6 +180,13 @@
       node: WPline1_1
       recovery_behaviours_config: ''
       top_vel: 0.55
+    - action: move_base
+      edge_id: WPline2_0_WPstart
+      inflation_radius: 0.0
+      map_2d: cropped
+      node: WPstart
+      recovery_behaviours_config: ''
+      top_vel: 0.55
     localise_by_topic: ''
     map: test
     name: WPline1_0
