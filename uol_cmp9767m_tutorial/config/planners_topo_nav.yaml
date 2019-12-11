@@ -22,7 +22,7 @@ DWAPlannerROS:
   max_vel_x: 0.25
   min_trans_vel: 0.0
   min_vel_y: 0.0
-  max_vel_y: 0.25 #default:0.35
+  max_vel_y: 0.15 #default:0.35
 
 
 NavfnROS:
