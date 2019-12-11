@@ -19,15 +19,15 @@ DWAPlannerROS:
   holonomic_robot: false
   sim_time: 1.0 # (double, default: 1.0) The amount of time to forward-simulate trajectories in seconds
   min_vel_x: 0.0
-  max_vel_x: 0.3
+  max_vel_x: 0.25
   min_trans_vel: 0.0
   min_vel_y: 0.0
-  max_vel_y: 0.0 #default:0.35
+  max_vel_y: 0.25 #default:0.35
 
 
 NavfnROS:
   visualize_potential: true # (bool, default: false) Specifies whether or not to visualize the potential area computed via a PointCloud2.
-  use_dijkstra: false # (bool, default: true) If true, use dijkstra's algorithm. Otherwise, A*.
+  use_dijkstra: true # (bool, default: true) If true, use dijkstra's algorithm. Otherwise, A*.
 
 #recovery_behaviors:
 #  - {name: conservative_reset, type: clear_costmap_recovery/ClearCostmapRecovery}
