@@ -76,52 +76,6 @@
     yaw_goal_tolerance: 0.2
 - meta:
     map: test
-    node: WPwait
-    pointset: test
-  node:
-    edges:
-    - action: move_base
-      edge_id: WPwait_WPstart
-      inflation_radius: 0.0
-      map_2d: cropped
-      node: WPstart
-      recovery_behaviours_config: ''
-      top_vel: 0.55
-    - action: move_base
-      edge_id: WPstart_WPwait
-      inflation_radius: 0.0
-      map_2d: cropped
-      node: WPstart
-      recovery_behaviours_config: ''
-      top_vel: 0.55
-    localise_by_topic: ''
-    map: test
-    name: WPinit2
-    pointset: test
-    pose:
-      orientation:
-        w: 1.0
-        x: 0.0
-        y: 0.0
-        z: 0.0
-      position:
-        x: -10.0
-        y: 0.0
-        z: 0.0
-    verts:
-    - x: 0.3
-      y: 0.3
-    - x: -0.3
-      y: 0.3
-    - x: -0.3
-      y: -0.3
-    - x: 0.3
-      y: -0.3
-    xy_goal_tolerance: 0.2
-    yaw_goal_tolerance: 0.2
-
-- meta:
-    map: test
     node: WPstart
     pointset: test
   node:
