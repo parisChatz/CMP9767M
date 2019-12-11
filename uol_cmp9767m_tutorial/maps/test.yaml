@@ -76,6 +76,52 @@
     yaw_goal_tolerance: 0.2
 - meta:
     map: test
+    node: WPwait
+    pointset: test
+  node:
+    edges:
+    - action: move_base
+      edge_id: WPwait_WPstart
+      inflation_radius: 0.0
+      map_2d: cropped
+      node: WPstart
+      recovery_behaviours_config: ''
+      top_vel: 0.55
+    - action: move_base
+      edge_id: WPstart_WPwait
+      inflation_radius: 0.0
+      map_2d: cropped
+      node: WPstart
+      recovery_behaviours_config: ''
+      top_vel: 0.55
+    localise_by_topic: ''
+    map: test
+    name: WPinit2
+    pointset: test
+    pose:
+      orientation:
+        w: 1.0
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      position:
+        x: -10.0
+        y: 0.0
+        z: 0.0
+    verts:
+    - x: 0.3
+      y: 0.3
+    - x: -0.3
+      y: 0.3
+    - x: -0.3
+      y: -0.3
+    - x: 0.3
+      y: -0.3
+    xy_goal_tolerance: 0.2
+    yaw_goal_tolerance: 0.2
+
+- meta:
+    map: test
     node: WPstart
     pointset: test
   node:
@@ -140,9 +186,9 @@
       y: -0.3
     xy_goal_tolerance: 0.2
     yaw_goal_tolerance: 0.2
-###########################################################################################################################################################################################
-################################################################ line 1 ###################################################################################################################
-###########################################################################################################################################################################################
+
+    ####################################################################
+
 - meta:
     map: test
     node: WPline1_0
@@ -207,10 +253,10 @@
     pointset: test
     pose:
       orientation:
-        w: -0.0042037
+        w: 0.6995598
         x: 0.0
         y: 0.0
-        z: -0.9999912
+        z: 0.714574
       position:
         x: 6.5
         y: -3.75
@@ -249,10 +295,10 @@
     pointset: test
     pose:
       orientation:
-        w: -0.0042037
+        w: 0.0194631
         x: 0.0
         y: 0.0
-        z: -0.9999912
+        z: -0.9998106
       position:
         x: 6.5
         y: -2.70
@@ -287,10 +333,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: 0.0194631
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9998106
       position:
         x: -6.5
         y: -2.70
@@ -335,13 +381,13 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: 0.9999746
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: 0.0071269
       position:
         x: -6.5
-        y: -0.7
+        y: -0.8
         z: 0.0
     verts:
     - x: 0.3
@@ -373,13 +419,13 @@
     pointset: test
     pose:
       orientation:
-        w: -0.0042037
+        w: 0.6961584
         x: 0.0
         y: 0.0
-        z: -0.9999912
+        z: 0.7178882
       position:
         x: 6.5
-        y: -0.7
+        y: -0.8
         z: 0.0
     verts:
     - x: 0.3
@@ -414,13 +460,13 @@
     pointset: test
     pose:
       orientation:
-        w: -0.0042037
+        w: 0.0148938
         x: 0.0
         y: 0.0
-        z: -0.9999912
+        z: -0.9998891
       position:
         x: 6.5
-        y: 0.24
+        y: 0.28
         z: 0.0
     verts:
     - x: 0.3
@@ -452,13 +498,13 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: 0.0078842
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999689
       position:
         x: -6.5
-        y: 0.24
+        y: 0.28
         z: 0.0
     verts:
     - x: 0.3
@@ -500,10 +546,10 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: 0.9999427 
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: 0.0107078
       position:
         x: -6.5
         y: 2.2
@@ -538,10 +584,10 @@
     pointset: test
     pose:
       orientation:
-        w: -0.0042037
+        w: 0.6886571
         x: 0.0
         y: 0.0
-        z: -0.9999912
+        z: 0.7250872
       position:
         x: 6.5
         y: 2.2
@@ -585,7 +631,7 @@
         z: -0.9999912
       position:
         x: 6.5
-        y: 3.2
+        y: 3.4
         z: 0.0
     verts:
     - x: 0.3
@@ -617,13 +663,13 @@
     pointset: test
     pose:
       orientation:
-        w: 1.0
+        w: -0.0042037
         x: 0.0
         y: 0.0
-        z: 0.0
+        z: -0.9999912
       position:
         x: -6.5
-        y: 3.2
+        y: 3.4
         z: 0.0
     verts:
     - x: 0.3

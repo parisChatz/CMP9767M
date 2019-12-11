@@ -19,11 +19,10 @@ DWAPlannerROS:
   holonomic_robot: false
   sim_time: 1.0 # (double, default: 1.0) The amount of time to forward-simulate trajectories in seconds
   min_vel_x: 0.0
-  max_vel_x: 0.25
   min_trans_vel: 0.0
   min_vel_y: 0.0
-  max_vel_y: 0.15 #default:0.35
-  latch_xy_goal_tolerance: true
+  max_vel_y: 0.0 #default:0.35
+
 
 NavfnROS:
   visualize_potential: true # (bool, default: false) Specifies whether or not to visualize the potential area computed via a PointCloud2.
