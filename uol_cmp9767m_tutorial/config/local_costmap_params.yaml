@@ -11,6 +11,3 @@ local_costmap:
     - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
     - {name: local_inflation_layer, type: "costmap_2d::InflationLayer"}
 
-
-
-
