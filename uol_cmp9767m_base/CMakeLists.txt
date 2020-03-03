@@ -12,6 +12,9 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   sensor_msgs
   std_msgs
+  
+  message_generation
+
   thorvald_twist_mux
   velodyne_description8
   velodyne_gazebo_plugins8
@@ -68,11 +71,11 @@ endif()
 # )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
+ add_service_files(
+   FILES
+   y_axes_diff.srv
 #   Service2.srv
-# )
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -82,10 +85,11 @@ endif()
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
+ generate_messages(
+   DEPENDENCIES
+   std_msgs
 #   nav_msgs#   sensor_msgs#   std_msgs
-# )
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -120,7 +124,7 @@ endif()
 catkin_package(
   INCLUDE_DIRS ${GAZEBO_INCLUDE_DIRS}
   LIBRARIES  ActorCollisionsPlugin
-  CATKIN_DEPENDS roscpp #gazebo_plugins gazebo_ros
+  CATKIN_DEPENDS roscpp rospy #gazebo_plugins gazebo_ros
 )
 
 

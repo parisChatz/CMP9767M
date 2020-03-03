@@ -19,7 +19,7 @@ DWAPlannerROS:
   holonomic_robot: false
   sim_time: 1.0 # (double, default: 1.0) The amount of time to forward-simulate trajectories in seconds
   min_vel_x: 0.0
-  max_vel_x: 0.3
+  max_vel_x: 4.0
   min_trans_vel: 0.0
   min_vel_y: 0.0
   max_vel_y: 0.0 #default:0.35
