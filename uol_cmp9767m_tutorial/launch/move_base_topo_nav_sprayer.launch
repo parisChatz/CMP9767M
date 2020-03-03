@@ -4,10 +4,10 @@
 
   <arg name="robot_name" default="thorvald_002"/>
   <arg name="tf_prefix" default="$(arg robot_name)"/>
-  <arg name="map_file" default="$(find uol_cmp9767m_base)maps/cropped.yaml"/>
+  <arg name="map_file2" default="$(find uol_cmp9767m_base)maps/cropped.yaml"/>
 
   <!-- map server -->
-  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
+  <node name="map_server2" pkg="map_server" type="map_server" args="$(arg map_file2)"/>
 
   <group ns="$(arg robot_name)">
     <remap from="map" to="/map" />
